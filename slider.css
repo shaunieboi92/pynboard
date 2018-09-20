@@ -1,0 +1,49 @@
+.wrap {
+    position:relative;
+    top:350px;
+    left:0px;
+    width: 150%;
+    margin: auto auto;
+    box-sizing: border-box;
+    height: 450px;
+    
+}
+
+
+.slider{
+    position:relative;
+    height:450px;
+    width:66.6667%;
+   display:inline-block;
+ overflow:hidden;
+    
+    
+}
+
+.slider img{
+    height:450px;
+    width:600px;
+    float:left;
+}
+.wrap a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-family:'Raleway', sans-serif;
+    padding:5px 10px;
+    
+}
+.pn{
+    height:30px;
+    position:absolute;
+  width:600px;
+    left:333px;
+}
+a.left{
+    float:left
+}
+a.right{
+    float:right
+}
+
+

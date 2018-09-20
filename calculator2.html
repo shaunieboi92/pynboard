@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<style type="text/css">
+    
+    #textbox{
+    text-align:right;
+
+    }
+</style>
+<script type="text/javascript">
+    function display(x){
+        frm.txt.value=frm.txt.value+x;
+        
+       
+    }
+    
+</script>    
+</head>
+<body>
+    
+    <form name="frm">
+        <input id="textbox" type="textbox" name="txt"><br><br>
+        <input type = "button" name ="btn9" value ="9" onclick="display(btn9.value)">
+        <input type = "button" name ="btn8" value ="8" onclick="display(btn8.value)">
+          <input type = "button" name ="btn7" value ="7" onclick="display(btn7.value)">
+        <input type = "button" name ="btnp" value ="+" onclick="display(btnp.value)"><br><br>
+        <input type = "button" name ="btn6" value ="6" onclick="display(btn6.value)">
+          <input type = "button" name ="btn5" value ="5" onclick="display(btn5.value)">
+        <input type = "button" name ="btn4" value ="4" onclick="display(btn4.value)">
+        <input type = "button" name ="btnm" value ="-" onclick="display(btnm.value)"><br><br>
+          <input type = "button" name ="btn3" value ="3" onclick="display(btn3.value)">
+        <input type = "button" name ="btn2" value ="2" onclick="display(btn2.value)">
+          <input type = "button" name ="btn1" value ="1" onclick="display(btn1.value)">
+        <input type = "button" name ="btnt" value ="*" onclick="display(btnt.value)"><br><br>
+        <input type = "button" name ="btn0" value ="0" onclick="display(btn0.value)">
+        <input type = "button" name ="btneq" value ="=" onclick="txt.value=eval(txt.value)">
+        <input type = "reset" name ="btnc" value ="Clear" >
+        
+        
+        <input type = "button" name ="btnd" value ="/" onclick="display(btnd.value)">
+       
+     
+    </form>
+    
+</body>
+
+</html>
